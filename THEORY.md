@@ -96,8 +96,6 @@ default void forEach(Consumer<Entity> action) {
 
 If you implement your own list and don't override **forEach**, it will still work thanks to the default method.
 
-You can learn more about generic types (**Consumer<Entity>**) in Level 26 **:P**
-
 ### 4. Why are default methods needed?
 
 - **API evolution without breaking code:** you can add new methods to the interface without having to implement them in all existing classes. - **Universal Behavior Patterns:** You can declare default behavior so that classes can use or override it.
